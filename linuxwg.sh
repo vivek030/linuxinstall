@@ -1,4 +1,5 @@
 sudo -i
+sudo apt-get update
 sudo apt install curl
 sudo add-apt-repository ppa:wireguard/wireguard
 sudo apt-get update
