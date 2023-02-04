@@ -1,10 +1,7 @@
 sudo -i
-apt-get update
-apt install curl
-add-apt-repository ppa:wireguard/wireguard
-apt-get update
-apt-get install wireguard-tools
-apt-get install openresolv
+apt update
+apt install wireguard-tools
+apt install openresolv
 dns = "10.6.6.1"
 read -p 'Enter Email ID ' email
 read -p 'Enter Friendly Name ' id
