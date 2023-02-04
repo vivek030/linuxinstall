@@ -5,7 +5,7 @@ apt install openresolv
 dns = "10.6.6.1"
 read -p 'Enter Email ID ' email
 read -p 'Enter Friendly Name ' id
-hostname = "hostname"
+hostname = hostname
 name = "$id/$hostname"
 read -p 'Enter API Key ' api
 json = @"
