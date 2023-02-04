@@ -1,4 +1,5 @@
-sudo -i
+#!/bin/bash
+set -e
 apt update
 apt install wireguard-tools
 apt install openresolv
